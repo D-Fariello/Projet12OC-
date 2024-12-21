@@ -1,0 +1,8 @@
+@use './_variables.scss';
+@use './_mixins.scss';
+@use './_base.scss';
+
+html, body {
+    width: 100%;
+    height: 100%;
+  }
