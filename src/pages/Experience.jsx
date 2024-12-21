@@ -14,6 +14,7 @@ import {
   FaTachometerAlt,
 } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
+import { Tooltip } from "react-tooltip";
 
 function Experience() {
   return (
@@ -31,12 +32,43 @@ function Experience() {
         </p>
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
-          <FaHtml5 title="HTML" alt="HTML" />
-          <FaCss3Alt title="CSS" />
-          <FaJs title="JavaScript" />
-          <FaReact title="React" />
-          <MdPhoneIphone title="Responsive Design" />
-          <SiRedux title="Redux" />
+          <FaHtml5
+            className="tooltip"
+            data-tooltip-id="html-tooltip"
+            data-tooltip-content="HTML: The standard markup language for creating web pages."
+          />
+          <FaCss3Alt
+            className="tooltip"
+            data-tooltip-id="css-tooltip"
+            data-tooltip-content="CSS: Stylesheet language used to describe the presentation of a document written in HTML."
+          />
+          <FaJs
+            className="tooltip"
+            data-tooltip-id="js-tooltip"
+            data-tooltip-content="JavaScript: A programming language for web development, enabling interactive content."
+          />
+          <FaReact
+            className="tooltip"
+            data-tooltip-id="react-tooltip"
+            data-tooltip-content="React: A JavaScript library for building user interfaces."
+          />
+          <MdPhoneIphone
+            className="tooltip"
+            data-tooltip-id="responsive-tooltip"
+            data-tooltip-content="Responsive Design: Designing web interfaces that adapt to different screen sizes."
+          />
+          <SiRedux
+            className="tooltip"
+            data-tooltip-id="redux-tooltip"
+            data-tooltip-content="Redux: A predictable state container for JavaScript apps."
+          />
+          {/* Tooltips for Section 1 */}
+          <Tooltip id="html-tooltip" />
+          <Tooltip id="css-tooltip" />
+          <Tooltip id="js-tooltip" />
+          <Tooltip id="react-tooltip" />
+          <Tooltip id="responsive-tooltip" />
+          <Tooltip id="redux-tooltip" />
         </div>
       </section>
 
@@ -52,10 +84,31 @@ function Experience() {
         </p>
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
-          <FaUsers title="Team Leadership" />
-          <FaChartLine title="Process Improvement" />
-          <FaComments title="Communication" />
-          <FaUserGraduate title="Coaching" />
+          <FaUsers
+            className="tooltip"
+            data-tooltip-id="leadership-tooltip"
+            data-tooltip-content="Team Leadership: Managing and guiding teams to success."
+          />
+          <FaChartLine
+            className="tooltip"
+            data-tooltip-id="process-tooltip"
+            data-tooltip-content="Process Improvement: Enhancing workflows to optimize efficiency."
+          />
+          <FaComments
+            className="tooltip"
+            data-tooltip-id="communication-tooltip"
+            data-tooltip-content="Communication: Effectively sharing and receiving information."
+          />
+          <FaUserGraduate
+            className="tooltip"
+            data-tooltip-id="coaching-tooltip"
+            data-tooltip-content="Coaching: Providing guidance and mentoring to improve performance."
+          />
+          {/* Tooltips for Section 2 */}
+          <Tooltip id="leadership-tooltip" />
+          <Tooltip id="process-tooltip" />
+          <Tooltip id="communication-tooltip" />
+          <Tooltip id="coaching-tooltip" />
         </div>
       </section>
 
@@ -71,10 +124,31 @@ function Experience() {
         </p>
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
-          <FaHeadset title="Customer Service" />
-          <FaTruck title="Logistics" />
-          <FaChartPie title="Data Analysis" />
-          <FaTachometerAlt title="Performance Management" />
+          <FaHeadset
+            className="tooltip"
+            data-tooltip-id="service-tooltip"
+            data-tooltip-content="Customer Service: Ensuring customer satisfaction through support."
+          />
+          <FaTruck
+            className="tooltip"
+            data-tooltip-id="logistics-tooltip"
+            data-tooltip-content="Logistics: Managing the flow of goods and services."
+          />
+          <FaChartPie
+            className="tooltip"
+            data-tooltip-id="analysis-tooltip"
+            data-tooltip-content="Data Analysis: Extracting insights from data to make informed decisions."
+          />
+          <FaTachometerAlt
+            className="tooltip"
+            data-tooltip-id="performance-tooltip"
+            data-tooltip-content="Performance Management: Monitoring and improving productivity."
+          />
+          {/* Tooltips for Section 3 */}
+          <Tooltip id="service-tooltip" />
+          <Tooltip id="logistics-tooltip" />
+          <Tooltip id="analysis-tooltip" />
+          <Tooltip id="performance-tooltip" />
         </div>
       </section>
     </section>
