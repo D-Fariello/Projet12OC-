@@ -56,6 +56,11 @@ a {
   text-decoration: none;
 }
 
+
+
+
+/////////// Home Page
+
 .home-page {
   display: flex;
   flex-direction: column;
@@ -65,6 +70,11 @@ a {
   top: 50%;
   left: 10%;
 }
+
+
+
+
+///////// About Me Page
 
 #about-me {
   display: flex;
@@ -85,6 +95,11 @@ a {
     margin-right: 50%;
   }
 }
+
+
+
+
+////////// Experience Page
 
 #experience-page {
   display: flex;
@@ -108,7 +123,25 @@ a {
     font-size: 25px;
     margin-top: 0;
   }
+
+  .experience-paragraph{
+    margin-right: 30%;
+  }
+
+  .icon-skills {
+    margin-bottom: 2%;
+    font-size: 2em;
+    gap: 20px;
+    display: flex
+;
 }
+
+
+}
+
+
+
+////// Contacts Page
 
 #contacts-page{
   display: flex;
