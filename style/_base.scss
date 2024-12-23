@@ -174,8 +174,7 @@ a {
   position: absolute;
   text-align: center;
   padding: 2rem;
-  top: 22%;
-  left: 4%;
+  top: 15%;
 
   h1 {
     font-size: 2.5rem;
@@ -187,6 +186,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    position: relative;
 
     .project-card {
       background-color: #fff;
@@ -197,6 +197,10 @@ a {
       text-align: center;
       width: 230px;
       height: 200px;
+
+      &:hover{
+        transform: scale(1.1);
+      }
 
       img {
         width: 100%;
