@@ -20,7 +20,7 @@ h6 {
 }
 
 h2 {
-  font-family: 'Lora';
+  font-family: "Lora";
   font-weight: 300;
 }
 
@@ -128,7 +128,7 @@ a {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
-}
+  }
 
   .icon-skills {
     margin-bottom: 2%;
@@ -154,19 +154,17 @@ a {
   #performance-tooltip {
     font-size: 10px;
     padding: 2px;
-    background-color: grey; 
+    background-color: grey;
     position: absolute;
-}
+  }
 
-.tooltip{
-  &:hover{
-    transform: scale(1.3);
-    transition: transform 0.2s ease;
+  .tooltip {
+    &:hover {
+      transform: scale(1.3);
+      transition: transform 0.2s ease;
+    }
   }
 }
-
-}
-
 
 /////// Projects Page
 
@@ -198,7 +196,7 @@ a {
       width: 230px;
       height: 200px;
 
-      &:hover{
+      &:hover {
         transform: scale(1.1);
       }
 
@@ -213,11 +211,29 @@ a {
       .projects-paragraph {
         cursor: pointer;
       }
-
     }
   }
-}
 
+  .projects-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    gap: 10px;
+  }
+
+  .buttons {
+    padding: 11px;
+    display: flex;
+    border-color: black;
+    cursor: pointer;
+    @include mixins.title-style;
+  }
+
+  .buttons:hover {
+    background-color: white;
+    transform: scale(1.1);
+  }
+}
 
 ////// Contacts Page
 
