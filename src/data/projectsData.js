@@ -23,16 +23,6 @@ const projectsData = [
   },
   {
     id: 3,
-    image: "./images-projects/colors.avif",
-    alt: "Print it",
-    title: "Print it",
-    description: "Dynamize the static website of a printing company. Explore the fundamentals of the JavaScript language. Create a dynamic carousel with JavaScript. Implement a responsive interface using HTML and CSS for desktop, tablet, and mobile. Understand how JavaScript interacts with HTML and CSS.",
-    github: "https://github.com/D-Fariello/Projet5-OC",
-    website: "https://d-fariello.github.io/Projet5-OC/",
-    category: ["JavaScript", "HTML", "CSS"],
-  },
-  {
-    id: 4,
     image: "./images-projects/food.avif",
     alt: "Ohmyfood",
     title: "Ohmyfood",
@@ -40,6 +30,16 @@ const projectsData = [
     github: "https://github.com/D-Fariello/Projet4-OC",
     website: "https://d-fariello.github.io/Projet4-OC/",
     category: ["HTML", "CSS", "SASS"],
+  },
+  {
+    id: 4,
+    image: "./images-projects/colors.avif",
+    alt: "Print it",
+    title: "Print it",
+    description: "Dynamize the static website of a printing company. Explore the fundamentals of the JavaScript language. Create a dynamic carousel with JavaScript. Implement a responsive interface using HTML and CSS for desktop, tablet, and mobile. Understand how JavaScript interacts with HTML and CSS.",
+    github: "https://github.com/D-Fariello/Projet5-OC",
+    website: "https://d-fariello.github.io/Projet5-OC/",
+    category: ["JavaScript", "HTML", "CSS"],
   },
   {
     id: 5,
