@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import projectsData from "../data/projectsData";
+import Modal from "../components/Modal";
 
 function Projects() {
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
+
   return (
     <section id="projects">
       <h1>Projects</h1>
@@ -13,12 +27,18 @@ function Projects() {
       </div>
       <div className="projects-grid">
         {projectsData.map((project) => (
-          <div key={project.id} className="project-card">
+          <div
+            key={project.id}
+            className="project-card"
+            onClick={() => handleProjectClick(project)} // Gestore clic
+          >
             <img src={project.image} alt={project.alt} />
             <p className="projects-paragraph">{project.title}</p>
           </div>
         ))}
       </div>
+      {/* Modale */}
+      <Modal show={showModal} onClose={closeModal} project={selectedProject} />
     </section>
   );
 }

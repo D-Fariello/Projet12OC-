@@ -17,7 +17,7 @@ function AboutMe() {
           learning and collaboration.
         </p>
       </section>
-      <section>
+      <section className="image-section">
         <img
           className="about-me-image"
           src="./images-projects/Dalila-BW.avif"
