@@ -11,7 +11,7 @@ function Modal({ show, onClose, project }) {
         </button>
         <h2>{project.title}</h2>
         <img className="image-modal" src={project.image} alt={project.alt} />
-        <p>{project.description}</p>
+        <p className="modal-paragraph">{project.description}</p>
         <div className="buttons-div">
           {project.github && (
             <a

@@ -178,10 +178,12 @@ img.about-me-image {
 /////// Projects Page
 
 #projects {
-  position: absolute;
+  display: flex;
   text-align: center;
   padding: 2rem;
-  top: 5%;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
 
   h1 {
     font-size: 2.5rem;
@@ -326,6 +328,10 @@ img.about-me-image {
     .close-button:hover {
       background-color: white;
       transform: scale(1.1);
+    }
+
+    .modal-paragraph{
+      font-family: variables.$font-paragraph;
     }
 
     .buttons-div {
