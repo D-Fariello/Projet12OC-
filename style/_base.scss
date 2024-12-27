@@ -381,6 +381,12 @@ img.about-me-image {
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   /////////////////////////////////////* Mobile styles */
+  html, body {
+    height: 100%;
+    background-image: none;
+    background-color: #f1f1f1;
+}
+
   .home-page {
     top: 60%;
 
@@ -396,7 +402,8 @@ img.about-me-image {
   .navbar {
     justify-content: start;
     ul.navbar-links {
-      gap: 20px;
+      font-size: 15px;
+      gap: 10px;
       flex-direction: column;
     }
   }
@@ -428,8 +435,10 @@ img.about-me-image {
   ///////////: Experiences page (MOBILE)
 
   #experience-page {
+        top: 20%;
+  
     .experience-title {
-      font-size: 2em;
+      font-size: 1.5em;
       margin-bottom: 0;
     }
     .experience-subtitle {
@@ -451,6 +460,54 @@ img.about-me-image {
       cursor: pointer;
   }
   }
+
+
+  //////// Proget Page (MOBILE)
+
+#projects {
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 54%;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.projects-buttons {
+  margin-bottom: 10%;
+ 
+}
+}
+
+/////// Contact Page (Mobile)
+
+#contacts-page {
+  display: flex;
+  justify-content: center;
+  top: 35%;
+  left: 0;
+
+  .contacts-title {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-left: 15%;
+    cursor: default;
+}
+}
+
+
+////////// Modale (MOBILE)
+
+.modal-overlay .modal-content {
+  width: 70%;
+.modal-paragraph {
+    font-size: 13px;
+}
+}
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
