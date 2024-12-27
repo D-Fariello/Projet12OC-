@@ -331,7 +331,7 @@ img.about-me-image {
       transform: scale(1.1);
     }
 
-    .modal-paragraph{
+    .modal-paragraph {
       font-family: variables.$font-paragraph;
     }
 
@@ -378,33 +378,30 @@ img.about-me-image {
   }
 }
 
-
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   /////////////////////////////////////* Mobile styles */
- .home-page{
-  top: 60%;
- 
-  
-  h1.home-title {
-    font-size: 2.5em;
+  .home-page {
+    top: 60%;
+
+    h1.home-title {
+      font-size: 2.5em;
+    }
+
+    p.home-paragraph {
+      font-size: 1em;
+    }
   }
 
-  p.home-paragraph {
-    font-size: 1em;
-  }
-}
-
-  .navbar{
+  .navbar {
     justify-content: start;
-   ul.navbar-links {
-    gap: 20px;
-    flex-direction: column;
+    ul.navbar-links {
+      gap: 20px;
+      flex-direction: column;
+    }
   }
-}
 
-
-//// About Me Page (MOBILE)
+  //// About Me Page (MOBILE)
 
   #about-me {
     margin: 1rem;
@@ -414,12 +411,11 @@ img.about-me-image {
     .about-me-title {
       font-size: 2em;
       margin-bottom: 0;
-  }
+    }
 
-    p.about-me-paragraph{
+    p.about-me-paragraph {
       position: relative;
       margin: 0;
-     
     }
   }
 
@@ -427,6 +423,33 @@ img.about-me-image {
     height: 120px;
     left: 50%;
     top: 10%;
+  }
+
+  ///////////: Experiences page (MOBILE)
+
+  #experience-page {
+    .experience-title {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+    .experience-subtitle {
+      font-size: 10px;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    .experience-paragraph {
+      margin-right: 0;
+      font-size: 10px;
+    }
+
+    .icon-skills {
+      margin-bottom: 2%;
+      font-size: 1em;
+      gap: 20px;
+      display: flex
+  ;
+      cursor: pointer;
+  }
   }
 }
 
