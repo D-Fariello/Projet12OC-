@@ -36,11 +36,8 @@ p.home-paragraph {
 
 .navbar {
   @include mixins.flex-center;
-  position: fixed;
-  top: 0;
   width: 100%;
   z-index: 10;
-  margin-top: 2%;
 
   ul.navbar-links {
     display: flex;
@@ -181,8 +178,7 @@ img.about-me-image {
 #projects {
   display: flex;
   text-align: center;
-  padding: 2rem;
-  margin-top: 5%;
+  padding: 0.5rem;
   flex-direction: column;
   align-items: center;
 
@@ -380,15 +376,16 @@ img.about-me-image {
 
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
-  /////////////////////////////////////* Mobile styles */
-  html, body {
+  /////////////////////////////////////* Mobile styles *//////////////////////////
+  html,
+  body {
     height: 100%;
     background-image: none;
     background-color: #f1f1f1;
-}
+  }
 
   .home-page {
-    top: 60%;
+    top: 50%;
 
     h1.home-title {
       font-size: 2.5em;
@@ -402,9 +399,13 @@ img.about-me-image {
   .navbar {
     justify-content: start;
     ul.navbar-links {
-      font-size: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
       gap: 10px;
-      flex-direction: column;
+      justify-content: center;
+      margin-left: 25%;
+      padding: 0;
     }
   }
 
@@ -413,7 +414,7 @@ img.about-me-image {
   #about-me {
     margin: 1rem;
     font-size: 14px;
-    top: 30%;
+    top: 40%;
 
     .about-me-title {
       font-size: 2em;
@@ -423,20 +424,21 @@ img.about-me-image {
     p.about-me-paragraph {
       position: relative;
       margin: 0;
+      font-size: 12px;
     }
   }
 
   img.about-me-image {
-    height: 120px;
-    left: 50%;
-    top: 10%;
+    height: 107px;
+    left: 54%;
+    top: 24%;
   }
 
   ///////////: Experiences page (MOBILE)
 
   #experience-page {
-        top: 20%;
-  
+    top: 20%;
+
     .experience-title {
       font-size: 1.5em;
       margin-bottom: 0;
@@ -455,63 +457,65 @@ img.about-me-image {
       margin-bottom: 2%;
       font-size: 1em;
       gap: 20px;
-      display: flex
-  ;
+      display: flex;
       cursor: pointer;
+    }
   }
-  }
-
 
   //////// Proget Page (MOBILE)
 
-#projects {
-  display: flex;
-  text-align: center;
-  padding: 2rem;
-  margin-top: 54%;
-  flex-direction: column;
-  align-items: center;
+  #projects {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
 
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-.projects-buttons {
-  margin-bottom: 10%;
- 
-}
-}
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .projects-buttons {
+      margin-bottom: 10%;
+    }
+  }
 
-/////// Contact Page (Mobile)
+  /////// Contact Page (Mobile)
 
-#contacts-page {
-  display: flex;
-  justify-content: center;
-  top: 35%;
-  left: 0;
+  #contacts-page {
+    display: flex;
+    justify-content: center;
+    top: 35%;
+    left: 0;
 
-  .contacts-title {
-    font-size: 2em;
-    margin-bottom: 0;
-    margin-left: 15%;
-    cursor: default;
-}
-}
+    .contacts-title {
+      font-size: 2em;
+      margin-bottom: 0;
+      margin-left: 15%;
+      cursor: default;
+    }
+  }
 
+  ////////// Modale (MOBILE)
 
-////////// Modale (MOBILE)
-
-.modal-overlay .modal-content {
-  width: 70%;
-.modal-paragraph {
-    font-size: 13px;
-}
+  .modal-overlay .modal-content {
+    width: 70%;
+    .modal-paragraph {
+      font-size: 13px;
+    }
+  }
 }
 
-}
+@media (min-width: 769px) and (max-width: 1249px) {
+///////////////////////////* Tablet styles *//////////////////////////////////////////
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Tablet styles */
+  html,
+  body {
+    height: 100%;
+    background-image: none;
+    background-color: #f1f1f1;
+  }
+
   h1.home-title {
     font-size: 3em;
   }
@@ -524,28 +528,26 @@ img.about-me-image {
     gap: 30px;
   }
 
-  img.about-me-image {
-    height: 300px;
+  ////// About Me Page (TABLET)
+
+  #about-me{
+    top: 34%;
   }
+
+  img.about-me-image {
+    height: 261px;
+    top: 13%;
+}
+
+/////// Project Page (TABLET)
+
+#projects {
+margin-top: 0;
 
   .project-card {
     width: 200px;
     height: 180px;
   }
 }
-
-@media (min-width: 1025px) and (max-width: 1440px) {
-  /* Desktop styles (if needed) */
-  .navbar ul.navbar-links {
-    gap: 50px;
-  }
-
-  img.about-me-image {
-    height: 400px;
-  }
-
-  .project-card {
-    width: 230px;
-    height: 200px;
-  }
+ 
 }
