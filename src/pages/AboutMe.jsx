@@ -20,7 +20,7 @@ function AboutMe() {
       <section className="image-section">
         <img
           className="about-me-image"
-          src="./public/images-projects/Dalila-copy.png"
+          src="/images-projects/Dalila-copy.png"
           alt="Dalila's photo"
         />
       </section>

@@ -1,7 +1,7 @@
 const projectsData = [
   {
     id: 1,
-    image: "./public/images-projects/header.avif",
+    image: "/images-projects/header.avif",
     alt: "Riding Cities",
     title: "Riding Cities",
     description:
@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
     id: 2,
-    image: "./public/images-projects/annie-spratt.avif",
+    image: "/images-projects/annie-spratt.avif",
     alt: "Booki",
     title: "Booki",
     description:
@@ -23,7 +23,7 @@ const projectsData = [
   },
   {
     id: 3,
-    image: "./public/images-projects/food.avif",
+    image: "/images-projects/food.avif",
     alt: "Ohmyfood",
     title: "Ohmyfood",
     description: "Improve the mobile site interface of a start-up with CSS animations. Integrate a mobile-first design. Add CSS animations. Implement a responsive interface. Use the CSS preprocessor, SASS.",
@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     id: 4,
-    image: "./public/images-projects/colors.avif",
+    image: "/images-projects/colors.avif",
     alt: "Print it",
     title: "Print it",
     description: "Dynamize the static website of a printing company. Explore the fundamentals of the JavaScript language. Create a dynamic carousel with JavaScript. Implement a responsive interface using HTML and CSS for desktop, tablet, and mobile. Understand how JavaScript interacts with HTML and CSS.",
@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     id: 5,
-    image: "./public/images-projects/sophie-bluel.avif",
+    image: "/images-projects/sophie-bluel.avif",
     alt: "Sophie Bluel",
     title: "Sophie Bluel",
     description: "Create a portfolio website for an interior designer. Build a dynamic web page using JavaScript. Learn how to communicate with an API. Manipulate DOM elements with JavaScript. Create a login form. Create a modal to add new data.",
@@ -53,7 +53,7 @@ const projectsData = [
   },
   {
     id: 6,
-    image: "./public/images-projects/kasa.avif",
+    image: "/images-projects/kasa.avif",
     alt: "Kasa",
     title: "Kasa",
     description: "Create a real estate rental web application with React. Configure navigation between application pages using React Router. Develop web interface elements using React components. Implement CSS animations.Develop a web interface with Sass.",
@@ -63,7 +63,7 @@ const projectsData = [
   },
   {
     id: 7,
-    image: "./public/images-projects/nina.avif",
+    image: "/images-projects/nina.avif",
     alt: "Nina Carducci",
     title: "Nina Carducci",
     description: "Optimize the SEO of a photographer's website. Perform an initial audit with Lighthouse to identify loading and SEO issues. Improve site performance and accessibility using Lighthouse and Wave tools. Optimize local search engine SEO with Rich Snippets. Integrate metadata for social networks.Produce a comprehensive audit report after improving the site.",
@@ -73,7 +73,7 @@ const projectsData = [
   },
   {
     id: 8,
-    image: "./public/images-projects/bank-tree.avif",
+    image: "/images-projects/bank-tree.avif",
     alt: "Argent Bank",
     title: "Argent Bank",
     description: "Implement the front-end of a banking application with React. Integrate the front-end with the back-end via API calls. Use React to develop the user interface. Use Redux and Redux Toolkit to manage application data and maintain consistent global state across the application. Use Swagger to define API endpoints and describe the various routes and actions required for the API. Use Node.js and MongoDB to run JavaScript code on the server side.",
