@@ -15,6 +15,9 @@ function AboutMe() {
           <br />A travel enthusiast and dog lover, I enjoy exploring new places,
           embracing different languages, and enriching my perspective through
           learning and collaboration.
+          <br /> In my free time, I indulge in my love for theater, staying
+          active at the gym, and discovering new cuisines—because great food is
+          an adventure in itself!
         </p>
       </section>
       <section className="image-section">
