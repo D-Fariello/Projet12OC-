@@ -33,32 +33,32 @@ function Experience() {
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
           <FaHtml5
-            className="tooltip"
+            className="html-icon-tooltip"
             data-tooltip-id="html-tooltip"
             data-tooltip-content="HTML: The standard markup language for creating web pages."
           />
           <FaCss3Alt
-            className="tooltip"
+            className="css-icon-tooltip"
             data-tooltip-id="css-tooltip"
             data-tooltip-content="CSS: Stylesheet language used to describe the presentation of a document written in HTML."
           />
           <FaJs
-            className="tooltip"
+            className="js-icon-tooltip"
             data-tooltip-id="js-tooltip"
             data-tooltip-content="JavaScript: A programming language for web development, enabling interactive content."
           />
           <FaReact
-            className="tooltip"
+            className="reac-icon-tooltip"
             data-tooltip-id="react-tooltip"
             data-tooltip-content="React: A JavaScript library for building user interfaces."
           />
           <MdPhoneIphone
-            className="tooltip"
+            className="iphone-icon-tooltip"
             data-tooltip-id="responsive-tooltip"
             data-tooltip-content="Responsive Design: Designing web interfaces that adapt to different screen sizes."
           />
           <SiRedux
-            className="tooltip"
+            className="redux-icon-tooltip"
             data-tooltip-id="redux-tooltip"
             data-tooltip-content="Redux: A predictable state container for JavaScript apps."
           />
@@ -85,22 +85,22 @@ function Experience() {
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
           <FaUsers
-            className="tooltip"
+            className="user-icon-tooltip"
             data-tooltip-id="leadership-tooltip"
             data-tooltip-content="Team Leadership: Managing and guiding teams to success."
           />
           <FaChartLine
-            className="tooltip"
+            className="chart-icon-tooltip"
             data-tooltip-id="process-tooltip"
             data-tooltip-content="Process Improvement: Enhancing workflows to optimize efficiency."
           />
           <FaComments
-            className="tooltip"
+            className="comments-icon-tooltip"
             data-tooltip-id="communication-tooltip"
             data-tooltip-content="Communication: Effectively sharing and receiving information."
           />
           <FaUserGraduate
-            className="tooltip"
+            className="licence-icon-tooltip"
             data-tooltip-id="coaching-tooltip"
             data-tooltip-content="Coaching: Providing guidance and mentoring to improve performance."
           />
@@ -125,22 +125,22 @@ function Experience() {
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
           <FaHeadset
-            className="tooltip"
+            className="headset-icon-tooltip"
             data-tooltip-id="service-tooltip"
             data-tooltip-content="Customer Service: Ensuring customer satisfaction through support."
           />
           <FaTruck
-            className="tooltip"
+            className="truck-icon-tooltip"
             data-tooltip-id="logistics-tooltip"
             data-tooltip-content="Logistics: Managing the flow of goods and services."
           />
           <FaChartPie
-            className="tooltip"
+            className="chartpie-icon-tooltip"
             data-tooltip-id="analysis-tooltip"
             data-tooltip-content="Data Analysis: Extracting insights from data to make informed decisions."
           />
           <FaTachometerAlt
-            className="tooltip"
+            className="performance-icon-tooltip"
             data-tooltip-id="performance-tooltip"
             data-tooltip-content="Performance Management: Monitoring and improving productivity."
           />
