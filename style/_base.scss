@@ -36,12 +36,12 @@ p.home-paragraph {
 
 .navbar {
   @include mixins.flex-center;
-  width: 100%;
+  width: 98%;
   z-index: 10;
 
   ul.navbar-links {
     display: flex;
-    gap: 50px;
+    gap: 45px;
     list-style: none;
 
     li:hover {
