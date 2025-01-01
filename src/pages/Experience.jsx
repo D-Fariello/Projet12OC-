@@ -76,11 +76,10 @@ function Experience() {
       <section id="product-support-lead">
         <h2 className="experience-subtitle">Global Product Support Lead</h2>
         <p className="experience-paragraph">
-          <span>Description: </span> Led a high-performing team to streamline
-          workflows, resolve customer issues, and optimize collaboration between
-          product and support teams. Enhanced efficiency by instituting
-          streamlined communication processes between the Product and Support
-          Teams.
+          Led a high-performing team to streamline workflows, resolve customer
+          issues, and optimize collaboration between product and support teams.
+          Enhanced efficiency by instituting streamlined communication processes
+          between the Product and Support Teams.
         </p>
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
@@ -116,11 +115,11 @@ function Experience() {
       <section id="market-manager">
         <h2 className="experience-subtitle">Italian Market Manager</h2>
         <p className="experience-paragraph">
-          <span>Description: </span> Managed customer service, after-sales
-          support, and marketplace performance for Italy and the UK, ensuring
-          high customer satisfaction and effective logistics coordination.
-          Successfully controlled revenue, expenses, and stock replenishment
-          while improving marketplace performance.
+          Managed customer service, after-sales support, and marketplace
+          performance for Italy and the UK, ensuring high customer satisfaction
+          and effective logistics coordination. Successfully controlled revenue,
+          expenses, and stock replenishment while improving marketplace
+          performance.
         </p>
         <div className="experience-skills">Key Skills:</div>
         <div className="icon-skills">
